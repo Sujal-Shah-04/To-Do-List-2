@@ -1,0 +1,104 @@
+/* Global Styles */
+body {
+    background: #121212;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    padding: 20px;
+}
+
+/* Container */
+.todo-container {
+    background: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    width: 600px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Section */
+.input-section {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background: #2a2a2a;
+    color: white;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Buttons */
+button {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #00eaff;
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+    width: 150px;
+}
+
+button:hover {
+    background: #00c5d6;
+}
+
+/* Task Sections */
+h3 {
+    margin: 15px 0 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: left;
+    padding-bottom: 5px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Task Lists */
+ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 15px;
+}
+
+/* Task Items */
+li {
+    background: #2a2a2a;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+}
+
+/* Task Actions */
+.task-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.task-actions button {
+    padding: 8px;
+    font-size: 14px;
+    border-radius: 6px;
+    width: auto;
+}
+
+/* Task Highlight */
+.highlighted {
+    background: yellow;
+    color: black;
+}
